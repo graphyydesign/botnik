@@ -33,7 +33,7 @@
     </header>
     <main class="sign-bg fix-box">
         <div class="container h-100">
-        <div class="row justify-content-center align-items-center h-100">
+        <div class="row justify-content-center h-100">
             <div class="col-lg-6 col-md-9 col-sm-11 col-12">
                 <div class="sign-up-bg">
                     <div class="sign-inner">

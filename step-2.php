@@ -31,11 +31,11 @@
             </div>
         </div>
     </header>
-    <main class="sign-bg">
+    <main class="sign-bg ">
         <div class="container h-100">
-        <div class="row justify-content-center align-items-center h-100">
+        <div class="row justify-content-center h-100">
             
-            <div class="col-lg-6">
+            <div class="col-lg-6 step-box">
                 <div class="step-bg">
                     <h6><span>Step 2</span> of 4</h6>
                 </div>
