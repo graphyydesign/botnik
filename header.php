@@ -49,7 +49,7 @@
                             <img src="assets/images/hamburger-light.svg" class="light-svg">
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="index.php">
                                 <img src="assets/images/timeline.svg" class="dark-svg">
                                 <img src="assets/images/timeline-light.svg" class="light-svg">
                                 Timeline</a>
@@ -57,7 +57,7 @@
                                 <img src="assets/images/fav.svg" class="dark-svg">
                                 <img src="assets/images/fav-light.svg" class="light-svg">
                                 Favorites</a>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="people.php">
                                 <img src="assets/images/people.svg" class="dark-svg">
                                 <img src="assets/images/people-light.svg" class="light-svg">
                                 People</a>
@@ -114,7 +114,7 @@
                                 <img src="assets/images/notifi.svg" class="dark-svg">
                                 <img src="assets/images/notifi-light.svg" class="light-svg">
                                 Notification</a>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="get-started.php">
                                 <img src="assets/images/logout.svg" class="dark-svg">
                                 <img src="assets/images/logout-light.svg" class="light-svg">
                                 Logout</a>

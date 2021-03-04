@@ -1,5 +1,18 @@
 
+<script>
+    $(function() {                      
+  $(".notification-btn").click(function() {
+    $(this).toggleClass("active");      
+  });
+});
     
+      $(function() {                      
+  $(".favorites-btn").click(function() {
+    $(this).toggleClass("active");      
+  });
+});
+    
+</script>    
     <script>
         $(document).ready(function() {
             $(".serach-bar").click(function() {
