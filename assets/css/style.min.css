@@ -1390,8 +1390,14 @@ input:focus{
     padding-bottom: 44px;
 }
 .fix-box .sign-up-bg {
-    margin-top:60px;
+    margin-top:112px;
 }
+
+.step-box {
+    margin-top:52px;
+}
+
+
 /* --- sign up end --- */
 
 
@@ -1914,9 +1920,7 @@ font-family: Arial;
        padding-left: 24px;
     }
     
-    .sign-up-bg {
-        margin-top:0 !important;
-    }
+    
     
 }
 @media (max-width:480px) {
@@ -2011,11 +2015,6 @@ header .btn-grp button i {
     height:58px;
 }
 
- .sign-up-bg {
-       margin-top: 0 !important;
-    }
-    
-    
     
 }
 @media (max-width:420px) {

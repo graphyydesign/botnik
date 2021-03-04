@@ -44,25 +44,19 @@
                         </div>
                         <div class="sign-up-input m-0">
                             <div class="input-main">
-                            <input type="password" placeholder="Enter password" minlength="8" id="enterpas">
-                                <i class="far fa-eye eye1" onclick="myFunction()"></i>
-                                <i class="fas fa-eye-slash eye2" onclick="myFunction()" style="display:none"></i>
-                                </div>
+                                <input type="text" placeholder="Username/Email address" id="enterpas">
+                            </div>
+                        
                             <div class="input-main">
-                            <div class="input-main">
-                               <input type="password" class="" placeholder="Confirm password" minlength="8" id="enterpas1">
+                               <input type="password" class="" placeholder="Password" minlength="8" id="enterpas1">
                                 <i class="far fa-eye eye3" onclick="myFunction1()"></i>
                                 <i class="fas fa-eye-slash eye4" onclick="myFunction1()" style="display:none"></i>
                                 </div>
-                            <div class="input-main">
-                            <div class="min-char">
-                                   <span> Minimum 8 characters</span>
-                                </div>
-                                </div>
-                        </div>
+                            
+                        
                         <div class="text-center">
                         <a href="setup.php">
-                        <button class="btn-main">Next</button>
+                        <button class="btn-main">Login</button>
                                 </a>
                             </div>
                     </div>
