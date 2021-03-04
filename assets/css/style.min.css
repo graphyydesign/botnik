@@ -4,7 +4,6 @@
 
 
 /*----------CSS-START----------*/
-
 body {
     background: #0e1f3b;
     font-family: 'Arial', sans-serif;
@@ -669,7 +668,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 .coll-grp.red::before {
     position:absolute;
-    content: " Identiy ";
+    content: " Identity ";
     bottom:46px;
     left:10%;
     width: auto;
@@ -1079,7 +1078,7 @@ footer p {
 .body-light .ul-right li:nth-child(1) {
     opacity: .9;
 }
-.body-light .progress-bar-team {
+.body-light .progress-bar-team, .body-light .people-page .progress-people-team{
     background: #d6cec8;
 }
 .body-light .body-light header {
@@ -1089,7 +1088,7 @@ footer p {
 .body-light .ul-right li:nth-child(3) {
     opacity: .8;
 }
-.body-light header nav .dropdown .dropdown-menu a, .body-light .profile, .body-light .tl-menu a{
+.body-light header nav .dropdown .dropdown-menu a, .body-light .profile, .body-light .tl-menu a, .body-light .user-detail .media h5, .body-light .user-detail .media p{
     color: #585858;
 }
 .body-light header nav .dropdown .dropdown-menu a:hover, .body-light .tl-menu a:hover {
@@ -1138,12 +1137,11 @@ footer p {
 .body-light .main-coll.green h5 {
     color:#585858;
 }
-
-.body-light .main-coll.red h5 {
+.body-light .main-coll.red h5 , .body-light .ul-people li span{
    color:#585858;
 }
 
-.body-light .main-coll.blue h5 {
+.body-light .main-coll.blue h5, .body-light  .people-progress span{
    color:#585858;
 }
 
@@ -1159,6 +1157,14 @@ footer p {
 
 .answer-page .team {
     margin-top:42px;
+}
+
+.step-inner .question h5 {
+    padding-top:20px;
+}
+
+.step-inner .sign-up-input {
+    margin:33px 0 53px 0;
 }
 
 .question-heading{
@@ -1257,6 +1263,246 @@ footer p {
         padding-left:18px;
 }
 
+
+
+/* --- sign up start --- */
+.sign-body{
+    padding: 0;
+}
+.sign-body header{
+    background: transparent;
+    position: absolute;
+}
+.sign-bg{
+    background: url(../images/sign-bg.svg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    min-height: auto;
+    padding-top:50px;
+}
+.sign-up-bg{
+    background: #041531;
+    padding:50px 60px;
+    border-radius: 15px;
+}
+
+.sign-inner h2{
+    color: #fff;
+    margin: 0;
+    font-family: 'Arial', sans-serif !important;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.sign-inner p{
+    color: #fff;
+    margin: 0;
+    font-family: 'Arial', sans-serif !important;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.btn-main{
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    padding: 12px 30px;
+    line-height: 20px;
+    cursor: pointer;
+    min-width: 130px;
+    letter-spacing: .5px;
+}
+.step-bg{
+    background: url(../images/sign-shape.svg) no-repeat;
+    background-size: 100%;
+    width: 270px;
+    text-align: center;
+    margin: auto;
+    padding: 13px 0 0;
+    height: 60px;
+}
+.step-bg h6{
+    margin: 0;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight:400;
+}
+.step-bg h6 span{
+    font-weight: 600;
+    letter-spacing:1px;
+}
+.question h5{
+text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-weight:400 !important;
+}
+input:focus{
+    outline: none;
+}
+.sign-up-input input{
+    background: transparent;
+    border-bottom: 2px solid #152e55 !important;
+    border: none;
+    width: 100%;
+    text-align: center;
+    padding:6px 0;
+    color: #f4f4f4;
+    font-size: 18px;
+}
+.sign-up-input{
+    margin:53px 0px;
+}
+.sign-logo{
+    padding: 12px 0;
+    cursor: pointer;
+}
+.sign-logo img{
+    width: 140px;
+}
+.input-main{
+    margin:32px 0;
+    position: relative;
+}
+.input-main .fa-eye, .input-main .fa-eye-slash{
+    position: absolute;
+    right: 0;
+    color: #fff6;
+    top: 50%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+.min-char{
+    border-radius: 10px;
+    color: rgb(255 255 255 / 40%);
+    text-align: center;
+    background-color: rgb(255 255 255 / 5%);
+    font-size: 14px;
+    padding: 14px 12px;
+    letter-spacing: .5px;
+}
+.step-setup .sign-inner h2{
+    padding-bottom: 44px;
+}
+.fix-box .sign-up-bg {
+    margin-top:60px;
+}
+/* --- sign up end --- */
+
+
+
+/* --- people start --- */
+
+.user-detail{
+    max-width: 233px;
+}
+.user-detail .media img {
+    border-radius: 50px;
+    min-width: 58px;
+    height: 58px;
+    margin-right: 1rem;
+    object-fit: cover;
+    width: 58px;
+}
+.people-page .coll-grp.multiple-layer::before {
+    display: none;
+}
+.user-detail .media h5 {
+font-family: Arial;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 5px !important;
+}
+.user-detail .media p {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    margin: 0 0 0px !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 178px;
+    text-decoration: underline;
+}
+.ul-people li {
+    list-style: none;
+}
+.ul-people li:nth-child(1){
+    margin-right: 15px;
+}
+.ul-people li img {
+    width: 18px;
+    height: 18px;
+}
+.ul-people li span{
+    font-size: 13px;
+    color: #ddd;
+    font-weight: 600;
+    display: inline-block;
+    line-height: 18px;
+}
+.people-page .people-progress{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.people-page .progress-people-main{
+    background: linear-gradient(to right, #31dab4 9%, #4499fb 49%, #ff608e 90%);
+    height: 16px;
+    left: 0;
+    border-radius: 50px;
+}
+.people-page .progress-people-team{
+        overflow: hidden;
+    position: relative;
+    background: #465773;
+     width: 294px;
+    border-radius: 50px;
+    height: 16px;
+}
+.people-progress span{
+        font-size: 16px;
+    line-height: 16px;
+    margin-right: 8px;
+    color: #fff;
+    font-weight: 500;
+}
+.notification-btn .unmute{
+    display: none;
+}
+.notification-btn.active .mute{
+    display: none;
+}
+.notification-btn.active .unmute{
+    display: block;
+}
+
+.favorites-btn .remove{
+    display: none;
+}
+.favorites-btn.active .add{
+    display: none;
+}
+.favorites-btn.active .remove{
+    display: block;
+}
+.people-page .current-section h2 {
+    padding: .5rem 0;
+}
+/* --- people end --- */
+
+
+
+
 /* --- light mode --- */
 
 .body-light .question-heading, .body-light  .ans-list-main .media h5, .body-light  .ans-list-main .media p{
@@ -1279,7 +1525,39 @@ footer p {
 .body-light .ans-list {
     background: #FCFAF9;
 }
+.body-light .sign-up-bg{
+    background: #f0edea;
+}
 
+.body-light .sign-up-input input {
+    color:#585858;
+}
+.body-light .sign-inner h2, .body-light .sign-inner p, .body-light .question h5{
+    color:#585858;
+}
+.body-light .btn-main {
+    border: 2px solid #585858;
+    color: #585858;
+}
+.body-light .step-bg{
+        background: url(../images/sign-shape-dark.png) no-repeat;
+    background-size: 100%;
+}
+.body-light .step-bg h6{
+    color: #fff;
+}
+.body-light .sign-bg {
+    background: url(../images/sign-dark-bg.svg);
+    background-size: cover;
+    background-position: center;
+}
+.body-light .min-char {
+    color: #585858;
+    background-color: #dcd5d0;
+}
+.body-light .input-main .fa-eye, .body-light .input-main .fa-eye-slash{
+    color: #585858;
+}
 @media (max-width: 1200px) {
     .progress-bar-team {
         left: 0;
@@ -1328,6 +1606,12 @@ footer p {
    .answer-page .ul-right {
     margin-top: 0 !important;
 }
+    .people-page .progress-people-team {
+        width: 442px;
+    }
+    .ul-people{
+        margin-top: 15px !important;
+    }
     
 }
 
@@ -1382,6 +1666,14 @@ footer p {
     .question-heading{
         text-align: left;
     }
+   .user-detail {
+    max-width: 100%;
+       margin-bottom: 15px;
+    }
+    .people-page .progress-people-team {
+    width: 92%;
+}
+    
 }
 
 @media (max-width:767px) {
@@ -1480,6 +1772,12 @@ footer p {
     justify-content: center;
     align-items: center;
     }
+    .sign-up-bg {
+    padding:40px 50px;
+    }
+    .people-page .progress-people-team {
+    width: 89%;
+}
 }
 
 @media (max-width:575px) {
@@ -1605,8 +1903,25 @@ footer p {
     margin-top:25px;
 }
     
+     .sign-up-bg {
+    padding:30px 40px;
+    }
+
+    .sign-bg , .body-light .sign-bg {
+    background-size: 100%;
+    }
+     .people-page .current-section h2 {
+       padding-left: 24px;
+    }
+    
+    .sign-up-bg {
+        margin-top:0 !important;
+    }
+    
 }
 @media (max-width:480px) {
+    
+      
     
   .ans-time .date {
     width:90px;
@@ -1695,7 +2010,18 @@ header .btn-grp button i {
     left:40px;
     height:58px;
 }
+
+ .sign-up-bg {
+       margin-top: 0 !important;
+    }
     
+    
+    
+}
+@media (max-width:420px) {
+    .people-page .progress-people-team {
+    width: 87%;
+}
 }
 
 @media (max-width:360px) {
@@ -1711,4 +2037,13 @@ header .btn-grp button i {
     margin-top: 10px;
     margin-left:70px;
 }
+      .sign-up-bg {
+    padding:20px 30px;
+    }
+.people-page .progress-people-team {
+    width: 85%;
+}
+    .ul-people li span {
+    font-size: 12px;
+    }
 }
