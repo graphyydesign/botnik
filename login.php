@@ -32,9 +32,9 @@
             </div>
         </div>
     </header>
-    <main class="sign-bg">
+    <main class="sign-bg fix-box">
         <div class="container h-100">
-        <div class="row justify-content-center align-items-center h-100">
+        <div class="row justify-content-center h-100">
             
             <div class="col-lg-6">
                 <div class="sign-up-bg">

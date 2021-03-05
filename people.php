@@ -133,7 +133,7 @@
                     <h6 class="small-head mb-2">
                         Team
                     </h6>
-                    <div class="coll-grp multiple-layer" style="margin-top:32px;">
+                    <div class="coll-grp multiple-layer">
                         
                         <div href="#"  class="main-coll">
                             <div class="row align-items-center">
@@ -198,7 +198,7 @@
                                 <div class="col-auto">
                                 <div class="user-detail">
                                     <div class="media align-items-center">
-                                          <img class="" src="assets/images/user.jpg" alt="Generic placeholder image">
+                                          <img class="" src="assets/images/user-03.jpg" alt="Generic placeholder image">
                                           <div class="media-body">
                                             <h5 class="mt-0">Andrew Flintoff
 
@@ -260,7 +260,7 @@
                                 <div class="col-auto">
                                 <div class="user-detail">
                                     <div class="media align-items-center">
-                                          <img class="" src="assets/images/user-03.jpg" alt="Generic placeholder image">
+                                          <img class="" src="assets/images/user-04.jpeg" alt="Generic placeholder image">
                                           <div class="media-body">
                                             <h5 class="mt-0">Rachel Macadams</h5>
                                             <p>r.mcadams@gmail.com</p>

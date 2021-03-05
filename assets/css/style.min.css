@@ -30,11 +30,20 @@ header .btn-grp button {
     border: 2px solid #fff;
     border-radius: 50px;
     color: #fff;
-    padding: 9px 24px;
+    padding: 9px 28px;
     line-height: 20px;
     cursor: pointer;
     margin-left: 16px;
 }
+
+button .mr-3 {
+    margin-right:8px !important;
+}
+
+.profile-page .ml-2 {
+    margin-left:4px !important;
+}
+
 .answer-body header .btn-grp{
     display: block;
 }
@@ -186,20 +195,23 @@ button:focus {
     border: 2px solid #fff;
     border-radius: 50px;
     color: #fff;
-    padding: 10px 26px;
+    padding: 10px 20px;
     line-height: 20px;
     cursor: pointer;
 }
 
 .current-section .btn-grp button img {
     width: 16px;
+    height:16px;
+    position: relative;
+    top: -2px;
 }
-.dropdown-user .dropdown-menu a:nth-child(1){
+header .dropdown-user .dropdown-menu a:nth-child(1){
     cursor:default;
     padding:0 12px ;
 }
 
-.dropdown-user .dropdown-menu a:nth-child(1):hover{
+header .dropdown-user .dropdown-menu a:nth-child(1):hover{
    background:none;
     
 }
@@ -207,6 +219,7 @@ button:focus {
     background: #071834;
     padding:40px 36px 33px 100px;
     border-radius: 20px 20px 0 0;
+    position: relative;
 }
 
 .past-section {
@@ -892,6 +905,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     display: flex;
     margin: auto;
     width: 20px;
+    height:20px;
 }
 /*.coll-grp.red .start-img, .coll-grp.blue .start-img {
     background: #1d2e4a;
@@ -955,7 +969,7 @@ footer p {
     border: 2px solid #fff;
     border-radius: 50px;
     color: #fff;
-    padding: 10px 26px;
+    padding: 10px 20px;
     line-height: 20px;
     cursor: pointer;
 }
@@ -1004,7 +1018,7 @@ footer p {
    background:#F0EDEA; 
 }
 
-.body-light .small-head {
+.body-light .small-head, .body-light .profile-user-section .media .p-des, .body-light .user-name, .body-light .user-email{
     color: #585858;
 }
 
@@ -1038,6 +1052,7 @@ footer p {
 .body-light .main-search-bar.active input::placeholder {
     color: #585858;
 }
+.body-light .profile-page .dropdown-user .dropdown-menu,
 .body-light .tl-menu,
 .body-light header nav .dropdown .dropdown-menu {
     background:#eee;
@@ -1088,9 +1103,11 @@ footer p {
 .body-light .ul-right li:nth-child(3) {
     opacity: .8;
 }
+.body-light .profile-page .dropdown .dropdown-menu a, 
 .body-light header nav .dropdown .dropdown-menu a, .body-light .profile, .body-light .tl-menu a, .body-light .user-detail .media h5, .body-light .user-detail .media p{
     color: #585858;
 }
+.body-light .profile-page .dropdown .dropdown-menu a:hover,
 .body-light header nav .dropdown .dropdown-menu a:hover, .body-light .tl-menu a:hover {
     background: #fafafa;
         color: #585858;
@@ -1386,6 +1403,7 @@ input:focus{
     padding: 14px 12px;
     letter-spacing: .5px;
 }
+
 .step-setup .sign-inner h2{
     padding-bottom: 44px;
 }
@@ -1396,7 +1414,6 @@ input:focus{
 .step-box {
     margin-top:52px;
 }
-
 
 /* --- sign up end --- */
 
@@ -1507,6 +1524,163 @@ font-family: Arial;
 /* --- people end --- */
 
 
+/* --- profile --- */
+
+.profile-section-dropdown{
+    position: absolute;
+    top: 0;
+    right: 0;
+    top: 40px;
+    right: 40px;
+}
+.user-section{
+    padding-bottom: 40px;
+}
+.user-img img{
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user-name{
+    font-size:32px;
+    color: #fff;
+    margin: 12px 0 10px;
+    line-height: 22px;
+}
+
+.profile-page .user-name {
+    margin:14px 0 4px ;
+}
+
+.profile-page .user-email {
+    margin:0 0 12px !important ;
+}
+
+.user-email{    
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    margin:0px 0 10px !important;
+    text-decoration: underline;
+}
+
+.profile-page .coll-grp.multiple-layer::before, .profile-page .coll-grp.blue::before, .profile-page .coll-grp.red::before{
+    display: none;
+}
+.profile-user-section .media-body{
+    width: 100%;
+    overflow: hidden;
+}
+.profile-user-section{
+    overflow: hidden;
+    width: 100%;
+}
+.profile-user-section .media img{
+        height:30px;
+    width:30px;
+    margin: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+        margin-top: 0;
+}
+.profile-user-section .media-body{
+    position: relative;
+}
+.profile-page .main-coll h5{
+    margin-top: 4px !important;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 3px !important;
+}
+.profile-user-section .media .p-des{
+color: #fff;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    font-size: 15px;
+    padding-right: 63px;
+    text-overflow: ellipsis;
+    margin-top: 4px;
+}
+.profile-user-section .p-des.active{
+    white-space: inherit;
+    padding-right: 0;
+}
+.profile-page .dropdown .dropdown-menu a:hover{
+        background: #071834;
+}
+.profile-page .dropdown .dropdown-menu a {
+    color: #fff;
+    transition: all 0s linear 0s;
+    padding:12px !important;
+    letter-spacing: 2.4px;
+    border-radius:12px;
+}
+
+
+.profile-page .dropdown .dropdown-menu a img {
+    width: 16px;
+    height:16px;
+    margin-right: 8px;
+}
+
+.profile-page .dropdown-user .dropdown-menu {
+    padding: 12px 12px !important;
+    background: #233450;
+    border-radius: 16px;
+    color: #fff;
+    margin-top: 20px;
+    overflow: hidden;
+    transform: translate3d(0px, 42px, 0px) !important;
+    right: 0 !important;
+    left: inherit !important;
+        z-index: 998;
+}
+.main-coll.green .profile-user-section h5, .main-coll.green  .p-tag{
+        color: #31dab4;
+}
+.main-coll.red .profile-user-section h5, .main-coll.red .p-tag{
+        color: #ff608e;
+}
+.main-coll.blue .profile-user-section h5, .main-coll.blue .p-tag{
+        color: #61aaff;
+}
+.p-tag{
+position: absolute;
+    right: 35px;
+    top: 0;
+    font-size: 14px;
+    z-index: 99999999;
+    line-height: 30px;
+}
+.active .p-tag{
+    position: static;
+    display: inline-block;
+}
+.less-btn{  
+    display: none;
+}
+.active .more-btn{
+    display: none;
+}
+.active .less-btn{
+       display: inline-block;
+    font-size: 14px;
+}
+.profile-page .pro-bar{
+        margin-bottom: auto;
+}
+.profile-page .ul-time li{
+    text-align: right;
+    display: block !important;
+}
+ .profile-page .ul-time li span{
+        white-space: nowrap;    
+    }
+/* --- profile --- */
 
 
 /* --- light mode --- */
@@ -1618,8 +1792,9 @@ font-family: Arial;
     .ul-people{
         margin-top: 15px !important;
     }
-    
+   
 }
+
 
 @media (max-width: 992px) {
     .dropdown-user .dropdown-menu {
@@ -1631,7 +1806,9 @@ font-family: Arial;
     .dropdown-user .dropdown-menu.show {
         transform: translate(0, 0) !important;
     }
-
+    .profile-page .dropdown-user .dropdown-menu {
+    transform: translate3d(0px, 42px, 0px) !important;
+    }
     header nav .dropdown .dropdown-menu.show {
         transform: translate(0, 0);
         transition: all 0s linear 0s;
@@ -1678,7 +1855,7 @@ font-family: Arial;
     }
     .people-page .progress-people-team {
     width: 92%;
-}
+} 
     
 }
 
@@ -1711,7 +1888,6 @@ font-family: Arial;
         background: #3f4d66;
         padding: 6px;
         margin-top: 0;
-        width: 29px;
         border-radius: 6px 6px 0 0;
     }
 
@@ -1784,6 +1960,22 @@ font-family: Arial;
     .people-page .progress-people-team {
     width: 89%;
 }
+    .p-tag{
+           right: 0px;
+    }
+    .profile-user-section .media .p-des {
+            padding-right: 30px;
+    }
+
+.profile-page .ul-time li {
+    text-align: left;
+    padding-left: 75px;
+}
+   
+   .profile-page  .ul-right {
+    margin-top:5px !important;
+}
+    
 }
 
 @media (max-width:575px) {
@@ -1919,9 +2111,21 @@ font-family: Arial;
      .people-page .current-section h2 {
        padding-left: 24px;
     }
-    
-    
-    
+/*    .profile-user-section .media .p-des {
+     width: calc(100% - 42px);
+    white-space: inherit;
+    height: 30px;
+    line-height: 30px;
+}*/
+   
+    .profile-page .ul-time li {
+    text-align: left;
+    display: block !important;
+}
+    .profile-section-dropdown{
+        top: 15px;
+        right: 15px;
+    }
 }
 @media (max-width:480px) {
     
@@ -2014,7 +2218,7 @@ header .btn-grp button i {
     left:40px;
     height:58px;
 }
-
+    
     
 }
 @media (max-width:420px) {

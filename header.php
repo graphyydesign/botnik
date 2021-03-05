@@ -102,7 +102,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
                             <div class="profile"><img src="assets/images/tim.png">Tim Chilcott</div>
                             <div class="dropdown-divider"></div>
-                            <a  class="dropdown-item" href="#">
+                            <a  class="dropdown-item" href="profile.php">
                                 <img src="assets/images/profile.svg" class="dark-svg">
                                 <img src="assets/images/profile-light.svg" class="light-svg">
                                 Profile</a>
