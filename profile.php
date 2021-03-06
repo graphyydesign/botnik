@@ -14,8 +14,8 @@
                                 <h3 class="user-name">Tim Chilcott</h3>
                                 <p class="user-email">tim.chilcott@botnik.com</p>
                             </div>
-                            <div class="btn-grp mt-0 d-sm-flex no-gutters justify-content-center">
-                                <div class="col-sm-auto col-12">
+                            <div class="btn-grp mt-0 d-flex no-gutters justify-content-center">
+                                <div class="col-auto text-left">
                                 <button class="">
                                     <div class="favorites-btn">
                                             
@@ -33,8 +33,8 @@
                                         </div>
                                 </button>
                                     </div>
-                                 <div class="col-sm-auto col-12">
-                                <button class="ml-sm-3 mt-sm-0 mt-2">
+                                 <div class="col-auto">
+                                <button class="ml-3">
                                     <div class="notification-btn">
                                             <div class="mute">
                                                 <img src="assets/images/notifications-off.svg" class="dark-svg">

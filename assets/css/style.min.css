@@ -1883,10 +1883,10 @@ position: absolute;
     .start-img {
         left: 20px;
         display: inherit;
-        top: -29px;
+        top: -20px;
         margin: inherit;
         background: #3f4d66;
-        padding: 6px;
+        padding: 4px;
         margin-top: 0;
         border-radius: 6px 6px 0 0;
     }
@@ -1968,7 +1968,7 @@ position: absolute;
     }
 
 .profile-page .ul-time li {
-    text-align: left;
+    text-align: right;
     padding-left: 75px;
 }
    
@@ -2119,7 +2119,7 @@ position: absolute;
 }*/
    
     .profile-page .ul-time li {
-    text-align: left;
+    text-align: right;
     display: block !important;
 }
     .profile-section-dropdown{
@@ -2225,6 +2225,17 @@ header .btn-grp button i {
     .people-page .progress-people-team {
     width: 87%;
 }
+    .user-section .btn-grp button {
+        padding: 10px 10px;
+    }
+     .user-section .btn-grp button.ml-3{
+    margin-left: .5rem!important;
+}
+        
+.profile-page .user-section .btn-grp .ml-2 {
+    margin-left: 0px !important;
+}
+    
 }
 
 @media (max-width:360px) {
@@ -2232,6 +2243,10 @@ header .btn-grp button i {
         padding: 10px 16px;
         font-size: 14px;
     }
+    .user-section .btn-grp button {
+        padding: 10px 8px;
+    }
+   
     
      .ans-time .date {
     width:90px;
