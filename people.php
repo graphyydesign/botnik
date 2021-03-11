@@ -65,12 +65,12 @@
                         </div>
                     </div>
                     <h6 class="small-head">
-                        You
+                        Enabled 
                     </h6>
                     <div class="coll-grp multiple-layer">
                         
-                        <div href="#"  class="main-coll">
-                            <div class="row align-items-center">
+                        <div class="main-coll">
+                            <div class="row align-items-center position-relative">
                                 <div class="col-auto">
                                 <div class="user-detail">
                                     <div class="media align-items-center">
@@ -82,7 +82,7 @@
                                         </div>
                                 </div>
                                 </div>
-                                <div class="col-lg-auto col-12">
+                                <div class="col-lg-auto col-9">
                                 <div class="people-progress">
                                     <span>81%</span>
                                     <div class="progress-people-team">
@@ -90,53 +90,65 @@
                                     </div>
                                 </div>
                                 </div>
-                                <div class="col-xl-auto col-lg-12 col-sm-12">
-                                    <ul class="ul-people d-flex align-items-center p-0 m-0">
-                                        <li class="favorites-btn">
-                                            
+                              
+                                <div class="col-xl-auto col-lg-2 col-md-3 col-sm-3 col-3 ml-auto text-right">
+                                     
+                                    <div class="switch-btn d-flex align-items-center">
+                               <div class="toggle-button-cover">
+                                  <div class="button-cover">
+                                    <div class="button r" id="button-1">
+                                      <input type="checkbox" class="checkbox">
+                                      <div class="knobs"></div>
+                                      <div class="layer"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div> 
+                                    
+                                </div>
+                                
+                                <div class="dropdown-custom">
+                            
+                             <div class="dropdown dropdown-user">
+                        <div class="dropdown-toggle p-0 " href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="nav-bar-02">
+                                <img src="assets/images/dots-bar.svg" class="dark-svg">
+                                <img src="assets/images/dots-bar-light.svg" class="light-svg">
+                            </div>
+                        </div>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            
+                            <a class="dropdown-item" href="javascript:void(0)">
+                            <div class="favorites-btn">
                                              <div class="add">
                                                <img src="assets/images/star.svg" class="dark-svg">
                                             <img src="assets/images/star-dark.svg" class="light-svg">
-                                            <span class="ml-1">Add to favorites</span>
+                                            Add to favorites
                                             </div>
                                             <div class="remove">
                                                 <img src="assets/images/star-fill.svg" class="dark-svg">
                                                 <img src="assets/images/star-fill-dark.svg" class="light-svg">
-                                                <span class="ml-1">Remove favorites</span>
+                                                Remove favorites
+                                            </div>
                                             </div>
                                            
-                                        </li>
-                                        
-                                        <li class="notification-btn">
-                                            <div class="mute">
-                                                <img src="assets/images/notifications-off.svg" class="dark-svg">
-                                                <img src="assets/images/notifications-dark.svg" class="light-svg">
-                                                <span class="ml-1">Mute notification</span>
-                                            </div>
-                                            <div class="unmute">
-                                                <img src="assets/images/notifications.svg" class="dark-svg">
-                                                <img src="assets/images/notifications-fill-dark.svg" class="light-svg">
-                                                <span class="ml-1">Unmute notification</span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
+                                          </a>
+                            
+                            
+                                 </div>
+                    </div>
+                            
+
+                                        </div>
                             </div>
                         </div>
                        
                     </div>
                        
-        
-
-                </div>
-                <div class="past-section">
-                    <h6 class="small-head mb-2">
-                        Team
-                    </h6>
                     <div class="coll-grp multiple-layer">
                         
-                        <div href="#"  class="main-coll">
-                            <div class="row align-items-center">
+                        <div  class="main-coll">
+                            <div class="row align-items-center position-relative">
                                 <div class="col-auto">
                                 <div class="user-detail">
                                     <div class="media align-items-center">
@@ -148,7 +160,7 @@
                                         </div>
                                 </div>
                                 </div>
-                                <div class="col-lg-auto col-12">
+                                <div class="col-lg-auto col-9">
                                 <div class="people-progress">
                                     <span>54%</span>
                                     <div class="progress-people-team">
@@ -156,49 +168,67 @@
                                     </div>
                                 </div>
                                 </div>
-                                <div class="col-xl-auto col-lg-12 col-sm-12">
-                                   <ul class="ul-people d-flex align-items-center p-0 m-0">
-                                        <li class="favorites-btn">
-                                            
+                                <div class="col-xl-auto col-lg-2 col-md-3 col-sm-3 col-3 ml-auto text-right">
+                                     
+                                    <div class="switch-btn d-flex align-items-center">
+                               <div class="toggle-button-cover">
+                                  <div class="button-cover">
+                                    <div class="button r" id="button-1">
+                                      <input type="checkbox" class="checkbox">
+                                      <div class="knobs"></div>
+                                      <div class="layer"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div> 
+                                    
+                                </div>
+                                
+                                <div class="dropdown-custom">
+                            
+                             <div class="dropdown dropdown-user">
+                        <div class="dropdown-toggle p-0 " href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="nav-bar-02">
+                                <img src="assets/images/dots-bar.svg" class="dark-svg">
+                                <img src="assets/images/dots-bar-light.svg" class="light-svg">
+                            </div>
+                        </div>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            
+                            <a class="dropdown-item" href="javascript:void(0)">
+                            <div class="favorites-btn">
                                              <div class="add">
                                                <img src="assets/images/star.svg" class="dark-svg">
                                             <img src="assets/images/star-dark.svg" class="light-svg">
-                                            <span class="ml-1">Add to favorites</span>
+                                            Add to favorites
                                             </div>
                                             <div class="remove">
                                                 <img src="assets/images/star-fill.svg" class="dark-svg">
                                                 <img src="assets/images/star-fill-dark.svg" class="light-svg">
-                                                <span class="ml-1">Remove favorites</span>
+                                                Remove favorites
+                                            </div>
                                             </div>
                                            
-                                        </li>
-                                        
-                                        <li class="notification-btn">
-                                            <div class="mute">
-                                                <img src="assets/images/notifications-off.svg" class="dark-svg">
-                                                <img src="assets/images/notifications-dark.svg" class="light-svg">
-                                                <span class="ml-1">Mute notification</span>
-                                            </div>
-                                            <div class="unmute">
-                                                <img src="assets/images/notifications.svg" class="dark-svg">
-                                                <img src="assets/images/notifications-fill-dark.svg" class="light-svg">
-                                                <span class="ml-1">Unmute notification</span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
+                                          </a>
+                            
+                            
+                                 </div>
+                    </div>
+                            
+
+                                        </div>
                             </div>
                         </div>
                        
                     </div>
                     <div class="coll-grp multiple-layer">
                         
-                        <div href="#"  class="main-coll">
-                            <div class="row align-items-center">
+                        <div  class="main-coll">
+                            <div class="row align-items-center position-relative">
                                 <div class="col-auto">
                                 <div class="user-detail">
                                     <div class="media align-items-center">
-                                          <img class="" src="assets/images/user-03.jpg" alt="Generic placeholder image">
+                                          <img class="" src="assets/images/user.jpg" alt="Generic placeholder image">
                                           <div class="media-body">
                                             <h5 class="mt-0">Andrew Flintoff
 
@@ -210,7 +240,7 @@
                                         </div>
                                 </div>
                                 </div>
-                                <div class="col-lg-auto col-12">
+                                <div class="col-lg-auto col-9">
                                 <div class="people-progress">
                                     <span>72%</span>
                                     <div class="progress-people-team">
@@ -218,49 +248,78 @@
                                     </div>
                                 </div>
                                 </div>
-                                <div class="col-xl-auto col-lg-12 col-sm-12">
-                                  <ul class="ul-people d-flex align-items-center p-0 m-0">
-                                        <li class="favorites-btn">
-                                            
+                                 <div class="col-xl-auto col-lg-2 col-md-3 col-sm-3 col-3 ml-auto text-right">
+                                     
+                                    <div class="switch-btn d-flex align-items-center">
+                               <div class="toggle-button-cover">
+                                  <div class="button-cover">
+                                    <div class="button r" id="button-1">
+                                      <input type="checkbox" class="checkbox">
+                                      <div class="knobs"></div>
+                                      <div class="layer"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div> 
+                                    
+                                </div>
+                                
+                                <div class="dropdown-custom">
+                            
+                             <div class="dropdown dropdown-user">
+                        <div class="dropdown-toggle p-0 " href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="nav-bar-02">
+                                <img src="assets/images/dots-bar.svg" class="dark-svg">
+                                <img src="assets/images/dots-bar-light.svg" class="light-svg">
+                            </div>
+                        </div>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            
+                            <a class="dropdown-item" href="javascript:void(0)">
+                            <div class="favorites-btn">
                                              <div class="add">
                                                <img src="assets/images/star.svg" class="dark-svg">
                                             <img src="assets/images/star-dark.svg" class="light-svg">
-                                            <span class="ml-1">Add to favorites</span>
+                                            Add to favorites
                                             </div>
                                             <div class="remove">
                                                 <img src="assets/images/star-fill.svg" class="dark-svg">
                                                 <img src="assets/images/star-fill-dark.svg" class="light-svg">
-                                                <span class="ml-1">Remove favorites</span>
+                                                Remove favorites
+                                            </div>
                                             </div>
                                            
-                                        </li>
-                                        
-                                        <li class="notification-btn">
-                                            <div class="mute">
-                                                <img src="assets/images/notifications-off.svg" class="dark-svg">
-                                                <img src="assets/images/notifications-dark.svg" class="light-svg">
-                                                <span class="ml-1">Mute notification</span>
-                                            </div>
-                                            <div class="unmute">
-                                                <img src="assets/images/notifications.svg" class="dark-svg">
-                                                <img src="assets/images/notifications-fill-dark.svg" class="light-svg">
-                                                <span class="ml-1">Unmute notification</span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
+                                          </a>
+                            
+                            
+                                 </div>
+                    </div>
+                            
+
+                                        </div>
                             </div>
                         </div>
                        
                     </div>
+
+                </div>
+                <div class="past-section">
+                    
+                    <div class="row">
+                            <div class="col-12">
+                    <h6 class="small-head mb-2">
+                        Disabled
+                    </h6>
+                        </div>
+                          <div class="col-12">
                     <div class="coll-grp multiple-layer">
                         
-                        <div href="#"  class="main-coll">
-                            <div class="row align-items-center">
+                        <div  class="main-coll">
+                            <div class="row align-items-center position-relative">
                                 <div class="col-auto">
                                 <div class="user-detail">
                                     <div class="media align-items-center">
-                                          <img class="" src="assets/images/user-04.jpeg" alt="Generic placeholder image">
+                                          <img class="" src="assets/images/user-06.png" alt="Generic placeholder image">
                                           <div class="media-body">
                                             <h5 class="mt-0">Rachel Macadams</h5>
                                             <p>r.mcadams@gmail.com</p>
@@ -268,7 +327,7 @@
                                         </div>
                                 </div>
                                 </div>
-                                <div class="col-lg-auto col-12">
+                                <div class="col-lg-auto col-9">
                                 <div class="people-progress">
                                     <span>63%</span>
                                     <div class="progress-people-team">
@@ -276,40 +335,143 @@
                                     </div>
                                 </div>
                                 </div>
-                                <div class="col-xl-auto col-lg-12 col-sm-12">
-                                  <ul class="ul-people d-flex align-items-center p-0 m-0">
-                                        <li class="favorites-btn">
-                                            
+                                <div class="col-xl-auto col-lg-2 col-md-3 col-sm-3 col-3 ml-auto text-right">
+                                     
+                                    <div class="switch-btn d-flex align-items-center">
+                               <div class="toggle-button-cover">
+                                  <div class="button-cover">
+                                    <div class="button r" id="button-1">
+                                      <input type="checkbox" class="checkbox" checked>
+                                      <div class="knobs"></div>
+                                      <div class="layer"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div> 
+                                    
+                                </div>
+                                
+                                <div class="dropdown-custom">
+                            
+                             <div class="dropdown dropdown-user">
+                        <div class="dropdown-toggle p-0 " href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="nav-bar-02">
+                                <img src="assets/images/dots-bar.svg" class="dark-svg">
+                                <img src="assets/images/dots-bar-light.svg" class="light-svg">
+                            </div>
+                        </div>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            
+                            <a class="dropdown-item" href="javascript:void(0)">
+                            <div class="favorites-btn">
                                              <div class="add">
                                                <img src="assets/images/star.svg" class="dark-svg">
                                             <img src="assets/images/star-dark.svg" class="light-svg">
-                                            <span class="ml-1">Add to favorites</span>
+                                            Add to favorites
                                             </div>
                                             <div class="remove">
                                                 <img src="assets/images/star-fill.svg" class="dark-svg">
                                                 <img src="assets/images/star-fill-dark.svg" class="light-svg">
-                                                <span class="ml-1">Remove favorites</span>
+                                                Remove favorites
+                                            </div>
                                             </div>
                                            
-                                        </li>
-                                        
-                                        <li class="notification-btn">
-                                            <div class="mute">
-                                                <img src="assets/images/notifications-off.svg" class="dark-svg">
-                                                <img src="assets/images/notifications-dark.svg" class="light-svg">
-                                                <span class="ml-1">Mute notification</span>
-                                            </div>
-                                            <div class="unmute">
-                                                <img src="assets/images/notifications.svg" class="dark-svg">
-                                                <img src="assets/images/notifications-fill-dark.svg" class="light-svg">
-                                                <span class="ml-1">Unmute notification</span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
+                                          </a>
+                            
+                            
+                                 </div>
+                    </div>
+                            
+
+                                        </div>
                             </div>
                         </div>
                        
+                    </div>
+                     </div>
+                          <div class="col-12">
+                    <div class="coll-grp multiple-layer">
+                        
+                        <div  class="main-coll">
+                            <div class="row align-items-center position-relative">
+                                <div class="col-auto">
+                                <div class="user-detail">
+                                    <div class="media align-items-center">
+                                          <img class="" src="assets/images/user-07.png" alt="Generic placeholder image">
+                                          <div class="media-body">
+                                            <h5 class="mt-0">Adam Wick
+
+</h5>
+                                            <p>adam.wick49@gmail.com
+
+</p>
+                                          </div>
+                                        </div>
+                                </div>
+                                </div>
+                                <div class="col-lg-auto col-9">
+                                <div class="people-progress">
+                                    <span>76%</span>
+                                    <div class="progress-people-team">
+                                     <div class="progress-people-main" style="width:76%"></div>
+                                    </div>
+                                </div>
+                                </div>
+                                 <div class="col-xl-auto col-lg-2 col-md-3 col-sm-3 col-3 ml-auto text-right">
+                                     
+                                    <div class="switch-btn d-flex align-items-center">
+                               <div class="toggle-button-cover">
+                                  <div class="button-cover">
+                                    <div class="button r" id="button-1">
+                                      <input type="checkbox" class="checkbox" checked>
+                                      <div class="knobs"></div>
+                                      <div class="layer"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div> 
+                                    
+                                </div>
+                                
+                                <div class="dropdown-custom">
+                            
+                             <div class="dropdown dropdown-user">
+                        <div class="dropdown-toggle p-0 " href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="nav-bar-02">
+                                <img src="assets/images/dots-bar.svg" class="dark-svg">
+                                <img src="assets/images/dots-bar-light.svg" class="light-svg">
+                            </div>
+                        </div>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            
+                            <a class="dropdown-item" href="javascript:void(0)">
+                            <div class="favorites-btn">
+                                             <div class="add">
+                                               <img src="assets/images/star.svg" class="dark-svg">
+                                            <img src="assets/images/star-dark.svg" class="light-svg">
+                                            Add to favorites
+                                            </div>
+                                            <div class="remove">
+                                                <img src="assets/images/star-fill.svg" class="dark-svg">
+                                                <img src="assets/images/star-fill-dark.svg" class="light-svg">
+                                                Remove favorites
+                                            </div>
+                                            </div>
+                                           
+                                          </a>
+                            
+                            
+                                 </div>
+                    </div>
+                            
+
+                                        </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                        </div>
+                        
                     </div>
                 </div>
 

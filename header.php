@@ -61,7 +61,7 @@
                                 <img src="assets/images/people.svg" class="dark-svg">
                                 <img src="assets/images/people-light.svg" class="light-svg">
                                 People</a>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="question-settings.php">
                                 <img src="assets/images/questions.svg" class="dark-svg">
                                 <img src="assets/images/questions-light.svg" class="light-svg">
                                 Question settings</a>

@@ -1,11 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="21.473" height="21.473" viewBox="0 0 21.473 21.473">
-    <defs>
-        <style>
-            .cls-1{fill:#fff}
-        </style>
-    </defs>
-    <g id="Icon_ionic-ios-remove-circle-outline" transform="translate(-3.375 -3.375)">
-        <path id="Path_24063" d="M20.68 16.875h-9.342a.791.791 0 0 0-.826.826.8.8 0 0 0 .826.826h9.342a.826.826 0 1 0 0-1.652z" class="cls-1" transform="translate(-1.898 -3.59)"/>
-        <path id="Path_24064" d="M14.111 4.82A9.287 9.287 0 1 1 7.54 7.54a9.23 9.23 0 0 1 6.571-2.72m0-1.445a10.736 10.736 0 1 0 10.737 10.736A10.735 10.735 0 0 0 14.111 3.375z" class="cls-1"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="22.473" height="22.473" viewBox="0 0 22.473 22.473">
+  <g id="Icon_ionic-ios-remove-circle-outline" data-name="Icon ionic-ios-remove-circle-outline" transform="translate(-2.594 -2.743)">
+    <path id="Path_24063" data-name="Path 24063" d="M20.68,16.875H11.338c-.454,0-.826.375-.826,1a.892.892,0,0,0,.826,1H20.68a1.018,1.018,0,0,0,0-2Z" transform="translate(-1.918 -4.132)" fill="#fff"/>
+    <path id="Path_24064" data-name="Path 24064" d="M14.111,4.82A9.287,9.287,0,1,1,7.54,7.54a9.23,9.23,0,0,1,6.571-2.72m0-1.445A10.736,10.736,0,1,0,24.848,14.111,10.735,10.735,0,0,0,14.111,3.375Z" transform="translate(-0.281 -0.132)" fill="#fff" stroke="#fff" stroke-width="1"/>
+  </g>
 </svg>

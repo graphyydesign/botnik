@@ -53,6 +53,7 @@
                         </div>
                         </div>
                         <div class="profile-section-dropdown">
+                            
                              <div class="dropdown dropdown-user">
                         <a class="dropdown-toggle p-0 " href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="nav-bar-02">
@@ -62,11 +63,15 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                             
+                            <a class="dropdown-item" href="edit-profile.php">
+                                <img src="assets/images/white-pen.svg" class="dark-svg">
+                                <img src="assets/images/dark-pen.svg" class="light-svg">
+                                Edit Profile</a>
                             <a  class="dropdown-item" href="#">
                                 <img src="assets/images/exchange-alt.svg" class="dark-svg">
                                 <img src="assets/images/dark-exchange-alt.svg" class="light-svg">
                                 Change role</a>
-                            <a class="dropdown-item appearance" href="#">
+                            <a class="dropdown-item" href="#">
                                 <img src="assets/images/circle-outline.svg" class="dark-svg">
                                 <img src="assets/images/dark-circle-outline.svg" class="light-svg">
                                 Remove from team</a>
