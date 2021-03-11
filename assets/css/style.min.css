@@ -2363,7 +2363,9 @@ select:active{
     .past-section {
         padding: 36px 36px 36px;
     }
-
+    .empty-data {
+        padding-right: 0px;
+    }
     .btn-grp {
         margin-top: 12px;
     }
