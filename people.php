@@ -23,9 +23,9 @@
                                     
                                     Filter
                                 </button> 
-                                <a href="add-people.php" ><button class="ml-3 exclude">
-                                    Add people
-                                </button></a>
+                                <button class="ml-3">
+                                    <a class="no-dec" href="add-people.php" >Add people</a>
+                                </button>
                                 
                                   <div class="dropdown-menu filter-dropmenu" aria-labelledby="filter">
                             

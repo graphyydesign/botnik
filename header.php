@@ -21,9 +21,6 @@
     <link type="text/css" rel="stylesheet" href="assets/css/owl.theme.default.css">
     <!-- Carousel-Css-Start -->
     
-    <!-- Date-CSS-Picker -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-datetimepicker/2.7.1/css/bootstrap-material-datetimepicker.min.css">
-    <!-- Date-CSS-Picker -->
     
     <script src="assets/js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -34,9 +31,6 @@
     <!-- Carousel-Js-Start -->
     
    
-    <!-- Date-js-Picker -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-datetimepicker/2.7.1/js/bootstrap-material-datetimepicker.min.js"></script>
-    <!-- Date-js-Picker -->
     
     <title>Botnik</title>
 </head>

@@ -36,6 +36,11 @@ header .btn-grp button {
     margin-left: 16px;
 }
 
+.no-dec {
+    text-decoration:none !important;
+    color:#fff !important;
+}
+
 button .mr-3 {
     margin-right:8px !important;
 }
@@ -2383,11 +2388,12 @@ position: absolute;
         left: inherit !important;
         right: -15px;
     }
-    .filter-dropdown-main .dropdown-user .dropdown-menu{
-            transform: translate3d(0px, 42px, 0px) !important;
-    }
+   
     .dropdown-user .dropdown-menu.show {
         transform: translate(0, 0) !important;
+    }
+     .filter-dropdown-main .dropdown-user .dropdown-menu.show{
+            transform: translate3d(0px, 42px, 0px) !important;
     }
     .profile-page .dropdown-user .dropdown-menu {
     transform: translate3d(0px, 42px, 0px) !important;
@@ -2589,7 +2595,8 @@ position: absolute;
     .pr-64{
     padding-right: 0px;
 }
-    
+    .filter-dropdown-main .filter-dropdown.dropdown-user .dropdown-menu.filter-dropmenu form .input-grp:nth-child(2) .input-grp-inner .row .col-md-6:nth-child(1) input{
+        margin-bottom: 8px;
 }
 
 @media (max-width:575px) {
