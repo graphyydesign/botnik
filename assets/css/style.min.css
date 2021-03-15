@@ -683,6 +683,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     font-weight:600;
     color:#31dab4;
     opacity:0.8;
+    z-index: 4;
 }
 
 .coll-grp.red::before {
@@ -697,6 +698,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     font-weight:600;
     color:#ff608e;
     opacity:0.8;
+    z-index: 4;
 }
 
 .coll-grp.blue::before {
@@ -711,6 +713,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     font-weight:600;
     color:#61aaff;
     opacity:0.8;
+    z-index: 4;
 }
 
 
@@ -1058,6 +1061,7 @@ footer p {
 .body-light .main-search-bar.active input::placeholder {
     color: #585858;
 }
+.body-light .filter-dropdown-main .dropdown-user .dropdown-menu,
 .body-light .profile-page .dropdown-user .dropdown-menu,
 .body-light .tl-menu,
 .body-light header nav .dropdown .dropdown-menu {
@@ -2379,7 +2383,9 @@ position: absolute;
         left: inherit !important;
         right: -15px;
     }
-
+    .filter-dropdown-main .dropdown-user .dropdown-menu{
+            transform: translate3d(0px, 42px, 0px) !important;
+    }
     .dropdown-user .dropdown-menu.show {
         transform: translate(0, 0) !important;
     }
@@ -2735,11 +2741,6 @@ position: absolute;
         top: 15px;
         right: 15px;
     }
-    
-    .exclude {
-        
-        display:none;
-    }
    /* .toggle-button-cover {
         margin-left: 74px;
     }*/
@@ -2837,7 +2838,9 @@ header .btn-grp button i {
     left:40px;
     height:58px;
 }
-    
+    .filter-dropdown-main .filter-dropdown.dropdown-user .dropdown-menu{
+        width: 400px;
+    }
     
 }
 @media (max-width:420px) {
@@ -2854,6 +2857,9 @@ header .btn-grp button i {
 .profile-page .user-section .btn-grp .ml-2 {
     margin-left: 0px !important;
 }
+     .filter-dropdown-main .filter-dropdown.dropdown-user .dropdown-menu{
+        width: 320px;
+    }
     
 }
 
