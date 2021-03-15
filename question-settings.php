@@ -1,6 +1,6 @@
 <?php include "header.php" ?>
 
-    <section class="question-settings">
+    <section class="question-settings full-height">
         <div class="container">
             <div class="main">
 

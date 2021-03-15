@@ -12,6 +12,7 @@
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     
@@ -20,6 +21,10 @@
     <link type="text/css" rel="stylesheet" href="assets/css/owl.theme.default.css">
     <!-- Carousel-Css-Start -->
     
+    <!-- Date-CSS-Picker -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-datetimepicker/2.7.1/css/bootstrap-material-datetimepicker.min.css">
+    <!-- Date-CSS-Picker -->
+    
     <script src="assets/js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
@@ -27,6 +32,11 @@
     <!-- Carousel-Js-Start -->
     <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
     <!-- Carousel-Js-Start -->
+    
+   
+    <!-- Date-js-Picker -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-datetimepicker/2.7.1/js/bootstrap-material-datetimepicker.min.js"></script>
+    <!-- Date-js-Picker -->
     
     <title>Botnik</title>
 </head>

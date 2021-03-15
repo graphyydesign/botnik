@@ -1,6 +1,6 @@
 <?php include "header.php" ?>
 
-    <section>
+    <section class="filter-dropdown-main full-height ">
         <div class="container">
             <div class="main">
 
@@ -22,23 +22,61 @@
                            </div>
                         </div>
                         <div class="col-md-8 text-right d-flex align-items-center justify-content-end">
-                            <div class="btn-grp mt-0">
-                                <button class="mr-sm-0 mr-3">
-                                    
-                                    <!-- Dark-Mode-Svg -->
+                         <div class="btn-grp filter-dropdown dropdown-user dropdown mt-0">
+                                
+                                
+                                <button class="mr-sm-0 mr-3 dropdown-toggle" d="filter" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <img src="assets/images/filter.svg" class="mr-3 dark-svg">
-                                    <!-- Dark-Mode-Svg -->
-                                    
-                                    <!-- Light-Mode-Svg -->
-                                    <img src="assets/images/filter-light.svg" class="mr-3 light-svg">
-                                    <!-- Light-Mode-Svg -->
-                                    
-                                    Filter
+                                    <img src="assets/images/filter-light.svg" class="mr-3 light-svg">Filter
                                 </button>
-                                <button class="ml-3">
+                          <button class="ml-3">
                                     <i class="fas fa-arrow-down mr-3"></i>Download
                                 </button>
+                              
+                        <div class="dropdown-menu filter-dropmenu" aria-labelledby="filter">
+                            
+                            <div class="row justify-content-center">
+                        <div class="col-sm-12 col-11">
+                        <div class="edit-profile-box">
+                            <form>
+                                <div class="input-grp">
+                                    <label>Filter by user(s)</label>
+                                    <div class="input-grp-inner">
+                                    <input type="text" class="input-class" placeholder="Type a member name" value="">
+                                </div>
+                                </div> 
+                                <div class="input-grp">
+                                    <label>Filter by user(s)</label>
+                                    <div class="input-grp-inner">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="date" class="input-class" placeholder="From" value="" >
+                                        </div>  
+                                        <div class="col-md-6">
+                                            <input type="date" class="input-class" placeholder="From" value="">
+                                        </div>  
+                                    </div>
+                                </div>
+                                </div>
+                            
+                                  
+                                <div class="input-grp mb-0">
+                                <div class="btn-grp">
+                                    <div class="text-left">
+                                <button class="">Submit</button>
+                                    </div>
+                                     </div>
+                                     </div>
+                            </form>
+                        </div>
+                        </div>
+                    </div>  
+                            
+                        </div>
+                                
+                                
                             </div>
+                        
                         </div>
                     </div>
                     <div class="row">

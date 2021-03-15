@@ -1,12 +1,12 @@
 <?php include "header.php" ?>
 
-    <section class="profile-page">
+    <section class="profile-page filter-dropdown-main full-height">
         <div class="container">
             <div class="main">
                 <div class="current-section">
                     <div class="row">
                         <div class="col-md-12">
-                        <div class="user-section text-center">
+                        <div class="user-section pr-64 text-center">
                             <div class="user-img">
                                 <img class="" src="assets/images/tim.png" alt="Generic placeholder image">
                             </div>
@@ -14,8 +14,8 @@
                                 <h3 class="user-name">Tim Chilcott</h3>
                                 <p class="user-email">tim.chilcott@botnik.com</p>
                             </div>
-                            <div class="btn-grp mt-0 d-sm-flex no-gutters justify-content-center">
-                                <div class="col-sm-auto col-12">
+                            <div class="btn-grp mt-0 d-flex no-gutters justify-content-center">
+                                <div class="col-auto text-left">
                                 <button class="">
                                     <div class="favorites-btn">
                                             
@@ -62,11 +62,15 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                             
-                            <a  class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="edit-profile.php">
+                                <img src="assets/images/white-pen.svg" class="dark-svg">
+                                <img src="assets/images/dark-pen.svg" class="light-svg">
+                                Edit Profile</a>
+                            <a  class="dropdown-item" href="change-role.php">
                                 <img src="assets/images/exchange-alt.svg" class="dark-svg">
                                 <img src="assets/images/dark-exchange-alt.svg" class="light-svg">
                                 Change role</a>
-                            <a class="dropdown-item appearance" href="#">
+                            <a class="dropdown-item" href="#">
                                 <img src="assets/images/circle-outline.svg" class="dark-svg">
                                 <img src="assets/images/dark-circle-outline.svg" class="light-svg">
                                 Remove from team</a>
@@ -93,14 +97,59 @@
                            </div>
                         </div>
                         <div class="col-md-8 text-right d-flex align-items-center justify-content-end">
-                            <div class="btn-grp mt-0">
-                                <button class="mr-sm-0 mr-3">
+                            <div class="btn-grp filter-dropdown dropdown-user dropdown mt-0">
+                                
+                                
+                                <button class="mr-sm-0 mr-3 dropdown-toggle" d="filter" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <img src="assets/images/filter.svg" class="mr-3 dark-svg">
                                     <img src="assets/images/filter-light.svg" class="mr-3 light-svg">Filter
                                 </button>
-                                <button class="ml-3">
-                                    <i class="fas fa-arrow-down mr-3"></i>Download
+                        <button class="ml-3">
+                                   Add people
                                 </button>
+                              
+                        <div class="dropdown-menu filter-dropmenu" aria-labelledby="filter">
+                            
+                            <div class="row justify-content-center">
+                        <div class="col-sm-12 col-11">
+                        <div class="edit-profile-box">
+                            <form>
+                                <div class="input-grp">
+                                    <label>Filter by user(s)</label>
+                                    <div class="input-grp-inner">
+                                    <input type="text" class="input-class" placeholder="Type a member name" value="">
+                                </div>
+                                </div> 
+                                <div class="input-grp">
+                                    <label>Filter by user(s)</label>
+                                    <div class="input-grp-inner">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="date" class="input-class" placeholder="From" value="" >
+                                        </div>  
+                                        <div class="col-md-6">
+                                            <input type="date" class="input-class" placeholder="From" value="">
+                                        </div>  
+                                    </div>
+                                </div>
+                                </div>
+                            
+                                  
+                                <div class="input-grp mb-0">
+                                <div class="btn-grp">
+                                    <div class="text-left">
+                                <button class="">Submit</button>
+                                    </div>
+                                     </div>
+                                     </div>
+                            </form>
+                        </div>
+                        </div>
+                    </div>  
+                            
+                        </div>
+                                
+                                
                             </div>
                         </div>
                     </div>
@@ -457,7 +506,7 @@
                         <div class="col-12">
                             <div class="coll-grp red">
                                 <img src="assets/images/User_fill.svg" class="start-img">
-                                <a href="javscript:void(0)" class="main-coll red ">
+                                <a href="javascript:void(0)" class="main-coll red ">
                                    <div class="row justify-content-between align-items-center">
                                 <div class="col-xl-11 col-lg-10 col-md-10 d-flex">
                                     <div class="pro-bar">
