@@ -1185,6 +1185,10 @@ footer p {
     background: #eee;
 }
 
+.body-light .no-dec {
+    color:#585858 !important;
+}
+
 /* ----- answer ------ */
 
 .answer-page .progress-bar-team:after{
