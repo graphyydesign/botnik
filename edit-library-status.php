@@ -77,19 +77,14 @@
                                                 <input type="checkbox" id="sat" value="sat">
                                                 <label for="sat">Sat</label>
                                             </li>
-                                        </ul>
-                                       </div>
-                                    </div>
-                                      <div class="col-lg-auto">
-                                        <div class="custom-checkbox ">
-                                        <ul class="bot-checkbox">
-                                            <li>
+                                             <li class="pl-3">
                                                 <input type="checkbox" id="9am" value="9am">
                                                 <label for="9am">9:00 Am</label>
                                             </li>
                                         </ul>
                                        </div>
                                     </div>
+                                    
                                 </div>
                             </div>
                         </div>

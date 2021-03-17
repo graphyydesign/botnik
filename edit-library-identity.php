@@ -50,46 +50,41 @@
                                         <div class="custom-checkbox ">
                                         <ul class="bot-checkbox">
                                             <li>
-                                                <input type="checkbox" id="sun" value="sun">
+                                                <input type="radio" name="days" id="sun" value="sun">
                                                 <label for="sun">Sun</label>
                                             </li>
                                             <li>
-                                                <input type="checkbox" id="mon" value="mon">
+                                                <input type="radio" name="days" id="mon" value="mon">
                                                 <label for="mon">Mon</label>
                                             </li>
                                              <li>
-                                                <input type="checkbox" id="tue" value="tue" checked>
+                                                <input type="radio" name="days" id="tue" value="tue" checked>
                                                 <label for="tue">Tue</label>
                                             </li>
                                              <li>
-                                                <input type="checkbox" id="wed" value="wed">
+                                                <input type="radio" name="days" id="wed" value="wed">
                                                 <label for="wed">Wed</label>
                                             </li>
                                              <li>
-                                                <input type="checkbox" id="thu" value="thu">
+                                                <input type="radio" name="days" id="thu" value="thu">
                                                 <label for="thu">Thu</label>
                                             </li>
                                              <li>
-                                                <input type="checkbox" id="fri" value="fri">
+                                                <input type="radio" name="days" id="fri" value="fri" disabled>
                                                 <label for="fri">Fri</label>
                                             </li>
                                              <li>
-                                                <input type="checkbox" id="sat" value="sat">
+                                                <input type="radio" name="days" id="sat" value="sat">
                                                 <label for="sat">Sat</label>
                                             </li>
-                                        </ul>
-                                       </div>
-                                    </div>
-                                      <div class="col-lg-auto">
-                                        <div class="custom-checkbox ">
-                                        <ul class="bot-checkbox">
-                                            <li>
-                                                <input type="checkbox" id="9am" value="9am">
+                                             <li class="pl-3">
+                                               <input type="radio" name="days" id="9am" value="9am">
                                                 <label for="9am">9:00 Am</label>
                                             </li>
                                         </ul>
                                        </div>
                                     </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -121,7 +116,8 @@
                     <h6 class="small-head">
                         Next
                     </h6>
-                    
+                      <div class="row slides position-relative">
+                      <div class="col-12">
                     <div class="coll-grp multiple-layer">
                         <img src="assets/images/light-mode-edit-bar-icon.svg" class="start-img light-svg">
                         <img src="assets/images/edit-bar-icon.svg" class="start-img dark-svg" >
@@ -170,7 +166,8 @@
                             </div>
                         </div>
                     </div>
-                    
+                    </div>
+                    </div>
                        </div>
                     <div class="past-section">
                     
@@ -179,7 +176,7 @@
                     </h6>
                     
                         <div class="row slides position-relative">
-                            <div class="col-12 slide">
+                            <div class="col-12 ">
                                 <div class="coll-grp multiple-layer">
                         <img src="assets/images/light-mode-edit-bar-icon.svg" class="start-img light-svg">
                         <img src="assets/images/edit-bar-icon.svg" class="start-img dark-svg" >
@@ -229,7 +226,7 @@
                         </div>
                     </div>
                             </div>
-                            <div class="col-12 slide">
+                            <div class="col-12 ">
                                 <div class="coll-grp multiple-layer">
                         <img src="assets/images/light-mode-edit-bar-icon.svg" class="start-img light-svg">
                         <img src="assets/images/edit-bar-icon.svg" class="start-img dark-svg" >
@@ -279,7 +276,7 @@
                         </div>
                     </div>
                             </div>
-                            <div class="col-12 slide">
+                            <div class="col-12 ">
                                 <div class="coll-grp multiple-layer">
                         <img src="assets/images/light-mode-edit-bar-icon.svg" class="start-img light-svg">
                         <img src="assets/images/edit-bar-icon.svg" class="start-img dark-svg" >
