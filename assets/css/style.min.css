@@ -8,8 +8,14 @@ body {
     background: #0e1f3b;
     font-family: 'Arial', sans-serif;
 }
+
 body {
     padding-top: 66px;
+}
+section .main{
+    background: #162743;
+    border-radius: 20px;
+    min-height: calc(100vh - 113px);
 }
 section {
         padding:3rem 0;
@@ -2217,6 +2223,75 @@ position: absolute;
 
 
 
+/* --- Edit Library --- */
+
+.edit-library .coll-grp.multiple-layer::before {
+    display: none;
+}
+.bot-checkbox{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+ul.bot-checkbox li{
+  display: inline;
+}
+ul.bot-checkbox li label{
+    display: inline-block;
+    background-color: #465773;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 12px;
+    white-space: nowrap;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    margin: 0;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 22px;
+    transition: all .2s;
+    font-weight: 600;
+}
+
+ul.bot-checkbox li label {
+    padding: 0px 12px;
+    cursor: pointer;
+}
+.status ul.bot-checkbox li input[type="checkbox"]:checked + label{
+    background: #31dab4;
+}
+.insight ul.bot-checkbox li input[type="checkbox"]:checked + label{
+    background: #61aaff;
+}
+.identity ul.bot-checkbox li input[type="checkbox"]:checked + label {
+     background-color: #ff608e;
+}
+ul.bot-checkbox li input[type="checkbox"]:checked + label {
+    color: #fff;
+    transition: all .2s;
+}
+
+ul.bot-checkbox li input[type="checkbox"] {
+  display: absolute;
+}
+ul.bot-checkbox li input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+.edit-library .start-img{
+    opacity: 0;
+}
+.edit-library .coll-grp:hover .start-img{
+    opacity: 1;
+}
+.edit-library .main-coll {
+    z-index: inherit;
+}
+/* --- Edit Library --- */
+
+
+
 /* --- light mode --- */
 
 .body-light .question-heading, .body-light  .ans-list-main .media h5, .body-light  .ans-list-main .media p{
@@ -2324,14 +2399,19 @@ position: absolute;
 .body-light .radio-grp input[type="radio"]:checked + label::after {
     background: #585858;
     }
-    
-    
-    @media (max-width: 2600px) {
-    .past-section {
-        min-height:50vh!important;
+   .body-light ul.bot-checkbox li label {
+    background-color: #fcfaf9;
+    color: #585858;
+}
+
+/* @media (max-width: 2600px) {
+    .question-settings .past-section {
+        height:480px !important;
     }
-    }
     
+}*/
+    
+   
 
 @media (max-width: 1200px) {
     .progress-bar-team {

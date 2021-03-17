@@ -71,7 +71,7 @@
                         </div>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
                             
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="edit-library-identity.php">
                                <img src="assets/images/edit.svg" class="dark-svg">
                                 <img src="assets/images/dark-pen.svg" class="light-svg">
                                 Edit library</a>
@@ -143,7 +143,7 @@
                         </div>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
                             
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="edit-library-status.php">
                                <img src="assets/images/edit.svg" class="dark-svg">
                                 <img src="assets/images/dark-pen.svg" class="light-svg">
                                 Edit library</a>
@@ -217,7 +217,7 @@
                         </div>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
                             
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="edit-library-status.php">
                                <img src="assets/images/edit.svg" class="dark-svg">
                                 <img src="assets/images/dark-pen.svg" class="light-svg">
                                 Edit library</a>
@@ -290,7 +290,7 @@
                         </div>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
                             
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="edit-library-status.php">
                                <img src="assets/images/edit.svg" class="dark-svg">
                                 <img src="assets/images/dark-pen.svg" class="light-svg">
                                 Edit library</a>
@@ -363,7 +363,7 @@
                         </div>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
                             
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="edit-library-insight.php">
                                <img src="assets/images/edit.svg" class="dark-svg">
                                 <img src="assets/images/dark-pen.svg" class="light-svg">
                                 Edit library</a>
