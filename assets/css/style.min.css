@@ -1017,6 +1017,88 @@ footer p {
     margin-top:36px;
 }
 
+/* billing */
+
+
+.tabs-section .nav-pills .nav-link.active span{
+    color: #000;
+}
+.tabs-section .nav-pills .nav-link span{
+    color: #ffffff; 
+    position: relative;
+    z-index: 1;
+}
+.tabs-section .nav-pills .nav-link{
+    line-height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: transparent;
+    background: url(../images/bg-select2-dark.svg) no-repeat;
+    background-size: 100%;
+    width: 270px;
+    text-align: center;
+    margin: auto;
+    padding: 0px 0 0;
+    height: 55px;
+}
+.tabs-section .nav-pills .nav-link.active{
+    background: url(../images/bg-select1-dark.svg) no-repeat;
+    background-size: 100%;
+}
+.tabs-section .tab-content{
+    background: #0e1f3b;
+    padding: 50px 120px;
+    border-radius: 15px;
+}
+.billing-info{
+    text-align: center;
+    color: #fff;
+}
+.billing-features li img{
+    height: 18px;
+}
+.billing-features li{
+    border-bottom: 2px solid #152e55;
+    padding: 8px 0;
+    margin-bottom: 12px;
+    
+}
+.billing-features li img{
+    display: none;
+}
+.billing-features li span{
+    color: #fff;
+    min-width: 130px;
+    opacity: 0.4;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.billing-features li span:after{
+    position: absolute;
+    background: url(../images/check-dark.svg) no-repeat;
+    height: 18px;
+    content: '';
+    width: 22px;
+    left: -64px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: contain;
+}
+.rate-billing{
+    font-size:70px;
+    margin:32px 0 12px;
+}
+.billing .input-grp {
+    margin-bottom: 24px;
+}
+/* billing */
+
+
+
+
 /* LIGHT THEME */
 
 .body-light header{
@@ -1222,7 +1304,37 @@ footer p {
     border: 2px solid #585858; 
     color: #585858;
 }
-
+.body-light .tabs-section .nav-pills .nav-link span{
+    color: #585858;
+}
+.body-light .tabs-section .nav-pills .nav-link.active span{
+    color: #fff;
+}
+.body-light .tabs-section .nav-pills .nav-link{
+    background: url(../images/bg-select2-light.svg) no-repeat;
+        background-size: 100%;
+}
+.body-light .tabs-section .nav-pills .nav-link.active{
+    background: url(../images/bg-select1-light.svg) no-repeat;
+        background-size: 100%;
+}
+.body-light .tabs-section .tab-content {
+    background:#F0EDEA;
+}
+.body-light .billing-info{
+    color: #585858;
+}
+.body-light .billing-features li span{
+    opacity: .9;
+    color: #585858;
+}
+.body-light .billing-features li {
+    border-color: #585858;
+}
+.body-light .billing-features li span:after{
+    background: url(../images/check-light.svg) no-repeat;
+    background-size: contain;
+}
 /* ----- answer ------ */
 
 .answer-page .progress-bar-team:after{
@@ -2599,6 +2711,17 @@ ul.bot-checkbox li input[type="radio"] {
        .people-page .switch-btn {
     margin-top: 0px;
         }
+    
+    .tabs-section .nav-pills .nav-link {
+        line-height: 43px;
+        width: 210px;
+        height: 43px;
+    }
+    
+    .tabs-section .tab-content {
+    padding: 50px 60px;
+}
+    
 }
 
 @media (min-width:767px) {
@@ -3038,6 +3161,32 @@ header .btn-grp button i {
 .back-button button i {
     font-size:13px;
 }
+    .tabs-section .tab-content {
+    padding:32px;
+}
+    
+        .tabs-section .nav-pills .nav-link{
+            line-height: 36px;
+    font-size: 14px;
+    font-weight: 600;
+    background: url(../images/bg-mob-select2-dark.svg) no-repeat;
+    background-size: 100%;
+    width: 160px;
+    padding: 0px 0 0;
+    height: 36px;
+    }
+    .tabs-section .nav-pills .nav-link.active{
+        background: url(../images/bg-mob-select1-dark.svg) no-repeat;
+        background-size: 100%;
+    }
+    .body-light .tabs-section .nav-pills .nav-link {
+        background: url(../images/bg-mob-select2-light.svg) no-repeat;
+        background-size: 100%;
+    }
+    .body-light .tabs-section .nav-pills .nav-link.active {
+    background: url(../images/bg-mob-select1-light.svg) no-repeat;
+        background-size: 100%;
+    }
     
 }
 @media (max-width:420px) {
@@ -3057,7 +3206,15 @@ header .btn-grp button i {
      .filter-dropdown-main .filter-dropdown.dropdown-user .dropdown-menu{
         width: 320px;
     }
-    
+    .billing-features li span:after {
+    left: -50px;
+    }
+      
+        .tabs-section .nav-pills .nav-link{
+    line-height: 32px;
+    width: 144px;
+    height: 32px;
+    }
 }
 
 @media (max-width:360px) {
@@ -3086,4 +3243,8 @@ header .btn-grp button i {
     .ul-people li span {
     font-size: 12px;
     }
+     .tabs-section .tab-content {
+    padding:24px;
+}
+  
 }
