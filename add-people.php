@@ -1,5 +1,14 @@
 <?php include "header.php" ?>
 
+    <div class="back-button mt-0">
+       <a href="people.php">
+          <button class="">
+             <i class="fas fa-arrow-left mr-3"></i>
+             <span>Back</span>
+           </button>
+       </a>
+    </div>
+
     <section class="add-people">
         <div class="container">
             <div class="main">

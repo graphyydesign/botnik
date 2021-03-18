@@ -105,7 +105,7 @@
                                     <img src="assets/images/filter-light.svg" class="mr-3 light-svg">Filter
                                 </button>
                         <button class="ml-3">
-                                   Add people
+                                    <i class="fas fa-arrow-down mr-3"></i>Download
                                 </button>
                               
                         <div class="dropdown-menu filter-dropmenu" aria-labelledby="filter">

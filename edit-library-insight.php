@@ -1,5 +1,14 @@
 <?php include "header.php" ?>
 
+    <div class="back-button mt-0">
+       <a href="question-settings.php">
+          <button class="">
+             <i class="fas fa-arrow-left mr-3"></i>
+             <span>Back</span>
+           </button>
+       </a>
+    </div>
+    
     <section class="edit-library full-height">
         <div class="container">
             <div class="main">
@@ -113,10 +122,13 @@
                     </div>
                     
                     
-                    <h6 class="small-head">
+                     <h6 class="small-head mb-2">
                         Next
                     </h6>
                     
+                    <div class="row position-relative connectedSortable" id="sortable1" style="min-height:50px;">
+                      <div class="col-12">
+                          
                     <div class="coll-grp multiple-layer">
                         <img src="assets/images/light-mode-edit-bar-icon.svg" class="start-img light-svg">
                         <img src="assets/images/edit-bar-icon.svg" class="start-img dark-svg" >
@@ -165,6 +177,8 @@
                             </div>
                         </div>
                     </div>
+                        </div>
+                    </div>
                     
                        </div>
                     <div class="past-section">
@@ -173,8 +187,8 @@
                         Queue
                     </h6>
                     
-                        <div class="row slides position-relative">
-                            <div class="col-12 slide">
+                       <div class="row position-relative connectedSortable" id="sortable2" style="min-height:50px;">
+                            <div class="col-12">
                                 <div class="coll-grp multiple-layer">
                         <img src="assets/images/light-mode-edit-bar-icon.svg" class="start-img light-svg">
                         <img src="assets/images/edit-bar-icon.svg" class="start-img dark-svg" >
@@ -224,7 +238,7 @@
                         </div>
                     </div>
                             </div>
-                            <div class="col-12 slide">
+                            <div class="col-12">
                                 <div class="coll-grp multiple-layer">
                         <img src="assets/images/light-mode-edit-bar-icon.svg" class="start-img light-svg">
                         <img src="assets/images/edit-bar-icon.svg" class="start-img dark-svg" >
@@ -274,7 +288,7 @@
                         </div>
                     </div>
                             </div>
-                            <div class="col-12 slide">
+                            <div class="col-12">
                                 <div class="coll-grp multiple-layer">
                         <img src="assets/images/light-mode-edit-bar-icon.svg" class="start-img light-svg">
                         <img src="assets/images/edit-bar-icon.svg" class="start-img dark-svg" >
@@ -334,45 +348,15 @@
         </div>
     </section>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-<script>
-    $(".slides").sortable({
-     placeholder: 'slide-placeholder',
-    axis: "y",
-    revert: 150,
-    start: function(e, ui){
-        
-        placeholderHeight = ui.item.outerHeight();
-        ui.placeholder.height(placeholderHeight + 15);
-        $('<div class="slide-placeholder-animator" data-height="' + placeholderHeight + '"></div>').insertAfter(ui.placeholder);
-    
-    },
-    change: function(event, ui) {
-        
-        ui.placeholder.stop().height(0).animate({
-            height: ui.item.outerHeight() + 15
-        }, 300);
-        
-        placeholderAnimatorHeight = parseInt($(".slide-placeholder-animator").attr("data-height"));
-        
-        $(".slide-placeholder-animator").stop().height(placeholderAnimatorHeight + 15).animate({
-            height: 0
-        }, 300, function() {
-            $(this).remove();
-            placeholderHeight = ui.item.outerHeight();
-            $('<div class="slide-placeholder-animator" data-height="' + placeholderHeight + '"></div>').insertAfter(ui.placeholder);
-        });
-        
-    },
-    stop: function(e, ui) {
-        
-        $(".slide-placeholder-animator").remove();
-        
-    },
-});
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-</script>
- 
+  <script>
+  $( function() {
+    $( "#sortable1, #sortable2" ).sortable({
+      connectWith: ".connectedSortable"
+    }).disableSelection();
+  } );
+  </script>
 
 <?php include "footer.php" ?>

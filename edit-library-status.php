@@ -1,5 +1,14 @@
 <?php include "header.php" ?>
 
+    <div class="back-button mt-0">
+       <a href="question-settings.php">
+          <button class="">
+             <i class="fas fa-arrow-left mr-3"></i>
+             <span>Back</span>
+           </button>
+       </a>
+    </div>
+
     <section class="edit-library full-height">
         <div class="container">
             <div class="main">
@@ -113,68 +122,12 @@
                     </div>
                     
                     
-                    <h6 class="small-head">
+                    <h6 class="small-head mb-2">
                         Next
                     </h6>
-                    
-                    <div class="coll-grp multiple-layer">
-                        <img src="assets/images/light-mode-edit-bar-icon.svg" class="start-img light-svg">
-                        <img src="assets/images/edit-bar-icon.svg" class="start-img dark-svg" >
-                        <div  class="main-coll green">
-                            <div class="row align-items-lg-center position-relative">
-                                <div class="col-xl-auto col-lg-7 col-md-10 col-sm-10 col-10 d-flex align-items-lg-center">
-                                    <div class="date-circle">
-                                    <div class="date-circle-inner">
-                                        Mon <span>16</span>
-                                    </div>
-                                    </div>
-                                    <div class="text-content ml-3">
-                                        <div class="type-text"><span>Insight&nbsp;</span></div>
-                                    <h5 class="m-0">What did you accomplish on your last work day?</h5>
-                                    </div>
-                                </div>
-                              
-                                <div class="dropdown-custom">
-                            
-                             <div class="dropdown dropdown-user">
-                        <div class="dropdown-toggle p-0 " href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <div class="nav-bar-02">
-                                <img src="assets/images/dots-bar.svg" class="dark-svg">
-                                <img src="assets/images/dots-bar-light.svg" class="light-svg">
-                            </div>
-                        </div>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
-                            
-                            <a class="dropdown-item" href="#">
-                               <img src="assets/images/edit.svg" class="dark-svg">
-                                <img src="assets/images/dark-pen.svg" class="light-svg">
-                                Edit Question</a>
-                            
-                               <a class="dropdown-item" href="#">
-                               <img src="assets/images/delete_dark.svg" class="dark-svg">
-                                <img src="assets/images/delete_light.svg" class="light-svg">
-                                Delete Question</a>
-                            
-                                 </div>
-                    </div>
-                            
-
-                                        </div>
-                                
-                                
-                            </div>
-                        </div>
-                    </div>
-                    
-                       </div>
-                    <div class="past-section">
-                    
-                     <h6 class="small-head mb-2">
-                        Queue
-                    </h6>
-                    
-                        <div class="row slides position-relative">
-                            <div class="col-12 slide">
+                     <div class="row position-relative connectedSortable" id="sortable1" style="min-height:50px;">
+                     
+                           <div class="col-12">
                                 <div class="coll-grp multiple-layer">
                         <img src="assets/images/light-mode-edit-bar-icon.svg" class="start-img light-svg">
                         <img src="assets/images/edit-bar-icon.svg" class="start-img dark-svg" >
@@ -224,7 +177,7 @@
                         </div>
                     </div>
                             </div>
-                            <div class="col-12 slide">
+                            <div class="col-12">
                                 <div class="coll-grp multiple-layer">
                         <img src="assets/images/light-mode-edit-bar-icon.svg" class="start-img light-svg">
                         <img src="assets/images/edit-bar-icon.svg" class="start-img dark-svg" >
@@ -274,7 +227,7 @@
                         </div>
                     </div>
                             </div>
-                            <div class="col-12 slide">
+                            <div class="col-12">
                                 <div class="coll-grp multiple-layer">
                         <img src="assets/images/light-mode-edit-bar-icon.svg" class="start-img light-svg">
                         <img src="assets/images/edit-bar-icon.svg" class="start-img dark-svg" >
@@ -324,6 +277,16 @@
                         </div>
                     </div>
                             </div>
+                    </div>
+                       </div>
+                    <div class="past-section">
+                    
+                     <h6 class="small-head mb-2">
+                        Queue
+                    </h6>
+                    
+                       <div class="row position-relative connectedSortable" id="sortable2" style="min-height:50px;">
+                          
                             </div>
                         
                 </div>
@@ -334,45 +297,15 @@
         </div>
     </section>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-<script>
-    $(".slides").sortable({
-     placeholder: 'slide-placeholder',
-    axis: "y",
-    revert: 150,
-    start: function(e, ui){
-        
-        placeholderHeight = ui.item.outerHeight();
-        ui.placeholder.height(placeholderHeight + 15);
-        $('<div class="slide-placeholder-animator" data-height="' + placeholderHeight + '"></div>').insertAfter(ui.placeholder);
-    
-    },
-    change: function(event, ui) {
-        
-        ui.placeholder.stop().height(0).animate({
-            height: ui.item.outerHeight() + 15
-        }, 300);
-        
-        placeholderAnimatorHeight = parseInt($(".slide-placeholder-animator").attr("data-height"));
-        
-        $(".slide-placeholder-animator").stop().height(placeholderAnimatorHeight + 15).animate({
-            height: 0
-        }, 300, function() {
-            $(this).remove();
-            placeholderHeight = ui.item.outerHeight();
-            $('<div class="slide-placeholder-animator" data-height="' + placeholderHeight + '"></div>').insertAfter(ui.placeholder);
-        });
-        
-    },
-    stop: function(e, ui) {
-        
-        $(".slide-placeholder-animator").remove();
-        
-    },
-});
+ <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-</script>
- 
+  <script>
+  $( function() {
+    $( "#sortable1, #sortable2" ).sortable({
+      connectWith: ".connectedSortable"
+    }).disableSelection();
+  } );
+  </script>
 
 <?php include "footer.php" ?>
