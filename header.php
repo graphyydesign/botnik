@@ -83,7 +83,7 @@
                 </ul>
 
                 <ul class="navbar-nav navbar-nav-logo col justify-content-center">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.php">
                         <img src="assets/images/logo.svg" class="dark-svg" width="140">
                         <img src="assets/images/logo-light.svg"  class="light-svg" width="140">
                         </a>
