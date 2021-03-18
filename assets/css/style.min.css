@@ -1057,6 +1057,10 @@ footer p {
    background:#F0EDEA; 
 }
 
+.body-light section .main{
+    background: #F0EDEA;
+}
+
 .body-light .small-head, .body-light .profile-user-section .media .p-des, .body-light .user-name, .body-light .user-email{
     color: #585858;
 }
@@ -1850,6 +1854,13 @@ position: absolute;
 .text-content .type-text span{
     font-weight: 600;
 }
+
+.question-settings .type-text span:nth-child(2) {
+    font-weight:400;
+    font-size:14px;
+    color:#fff;
+}
+
 
 .dropdown-custom {
     position: absolute;
@@ -2745,6 +2756,14 @@ ul.bot-checkbox li input[type="radio"] {
 margin:auto !important;
 }
 
+   .edit-library .coll-grp:hover .start-img{
+    display: none;
+}
+
+.question-settings .type-text span:nth-child(2) {
+    display:none;
+}
+
 
 }
 
@@ -2904,6 +2923,9 @@ margin:auto !important;
     ul.bot-checkbox li label {
         padding: 0px 8px;
     }
+    
+ 
+
     
 }
 @media (max-width:480px) {

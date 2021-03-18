@@ -26,7 +26,7 @@
                                     </div>
                                     </div>
                                     <div class="text-content ml-3">
-                                        <div class="type-text"><span>Identity&nbsp;</span>-&nbsp; Asking 96 people on Monday July, 19 2021 at 9 am PST</div>
+                                        <div class="type-text"><span>Identity&nbsp;</span><span>-&nbsp; Asking 96 people on Monday July, 19 2021 at 9 am PST</span></div>
                                     <h5 class="m-0">What did you accomplish on your last work day?</h5>
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@
                                     </div>
                                     </div>
                                     <div class="text-content ml-3">
-                                        <div class="type-text"><span>Identity&nbsp;</span>-&nbsp; Asking 96 people on Monday July, 19 2021 at 9 am PST</div>
+                                        <div class="type-text"><span>Status&nbsp;</span><span>-&nbsp; Asking 96 people on Monday July, 19 2021 at 9 am PST</span></div>
                                     <h5 class="m-0">What did you accomplish on your last work day?</h5>
                                     </div>
                                 </div>
@@ -171,7 +171,7 @@
                                     </div>
                                     </div>
                                     <div class="text-content ml-3">
-                                        <div class="type-text"><span>Identity&nbsp;</span>-&nbsp; Asking 96 people on Monday July, 19 2021 at 9 am PST</div>
+                                        <div class="type-text"><span>Status&nbsp;</span><span>-&nbsp; Asking 96 people on Monday July, 19 2021 at 9 am PST</span></div>
                                     <h5 class="m-0">What did you accomplish on your last work day?</h5>
                                     </div>
                                 </div>
@@ -244,7 +244,7 @@
                                     </div>
                                     </div>
                                     <div class="text-content ml-3">
-                                        <div class="type-text"><span>Identity&nbsp;</span>-&nbsp; Asking 96 people on Monday July, 19 2021 at 9 am PST</div>
+                                        <div class="type-text"><span>Status&nbsp;</span><span>-&nbsp; Asking 96 people on Monday July, 19 2021 at 9 am PST</span></div>
                                     <h5 class="m-0">What did you accomplish on your last work day?</h5>
                                     </div>
                                 </div>
@@ -317,7 +317,7 @@
                                     </div>
                                     </div>
                                     <div class="text-content ml-3">
-                                        <div class="type-text"><span>Insight&nbsp;</span>-&nbsp; Asking 96 people on Monday July, 19 2021 at 9 am PST</div>
+                                        <div class="type-text"><span>Insight&nbsp;</span><span>-&nbsp; Asking 96 people on Monday July, 19 2021 at 9 am PST</span></div>
                                     <h5 class="m-0">What did you accomplish on your last work day?</h5>
                                     </div>
                                 </div>
