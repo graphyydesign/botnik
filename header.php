@@ -37,6 +37,7 @@
 
 <body>
     <header id="myHeader">
+        <div class="banner"><a href="billing.php">You have 14 days left on your free trail. Click here to pay for Botnik!</a></div>
         <nav class="navbar navbar-expand-lg">
 
             <!--  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,7 +84,7 @@
                 </ul>
 
                 <ul class="navbar-nav navbar-nav-logo col justify-content-center">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.php">
                         <img src="assets/images/logo.svg" class="dark-svg" width="140">
                         <img src="assets/images/logo-light.svg"  class="light-svg" width="140">
                         </a>
@@ -118,6 +119,10 @@
                                 <img src="assets/images/notifi.svg" class="dark-svg">
                                 <img src="assets/images/notifi-light.svg" class="light-svg">
                                 Notification</a>
+                            <a class="dropdown-item" href="subscription.php">
+                                <img src="assets/images/billing-icon-dark.svg" class="dark-svg">
+                                <img src="assets/images/billing-icon-light.svg" class="light-svg">
+                                 Billing</a>       
                             <a class="dropdown-item" href="get-started.php">
                                 <img src="assets/images/logout.svg" class="dark-svg">
                                 <img src="assets/images/logout-light.svg" class="light-svg">
