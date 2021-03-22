@@ -16,14 +16,14 @@
                </div>
                <div class="col-sm-12">
                 <ul class="billing-list m-0 p-0">
-                    <li class="mb-4">
+                    <li>
                         <a href="#">
                                <img src="assets/images/changeplan-dark.svg" class="dark-svg">
                                 <img src="assets/images/changeplan-light.svg" class="light-svg">
                             <span>Change plan</span>
                         </a>
                     </li>
-                     <li class="mb-4">
+                     <li>
                         <a href="#">
                                <img src="assets/images/card-dark.svg" class="dark-svg">
                                 <img src="assets/images/card-light.svg" class="light-svg">

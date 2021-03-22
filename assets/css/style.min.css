@@ -1118,10 +1118,25 @@ footer p {
 }
 
 .billing-list li a{
+    max-width:320px;
+     display: flex;
+    transition: all 0s linear 0s;
+    padding: 16px 12px 16px 12px;
+    letter-spacing: 1.6px;
+    border-radius: 12px;
     color: #fff;
     text-decoration: none;
-    display: flex;
+    
+    
 }
+
+.billing-list li a:hover {
+       background: #0e1f3b;
+
+}
+
+
+
 .billing-list li a img{
     width: 20px;
 }
@@ -1934,8 +1949,13 @@ position: absolute;
     width: 440px;
 }
 .filter-dropmenu .input-grp:nth-child(1) {
-  margin-bottom:28px;
+  margin-bottom:20px;
 }
+
+.filter-dropmenu .input-grp:nth-child(2) {
+  margin-bottom:24px;
+}
+
 .filter-dropmenu .input-grp label {
     margin-bottom:16px;
 }
