@@ -1784,6 +1784,15 @@ font-family: Arial;
 .people-page .current-section h2 {
     padding: .5rem 0;
 }
+.add-people .coll-grp.multiple-layer::before{
+    display: none;
+}
+#dynamic_field .input-grp:nth-child(1) label{
+    display: block;
+}
+#dynamic_field .input-grp label{
+    display: none;
+}
 /* --- people end --- */
 
 
