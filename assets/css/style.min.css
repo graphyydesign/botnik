@@ -108,6 +108,9 @@ header nav .dropdown a.dropdown-toggle {
     border: 2px solid #fff;
 }
 
+a:hover {
+    text-decoration:none !important;
+}
 
 header nav .dropdown a.dropdown-toggle .nav-bar div:nth-child(1) {
     width: 14px;
@@ -2453,9 +2456,17 @@ position: absolute;
     border-radius: 100%;
 }
 
+.change-role .input-grp .input-grp-inner label {
+    font-size:16px !important;
+    font-weight:500 !important;
+    text-transform: none !important;
+}
+
 .change-role .input-grp label {
     margin-bottom:16px;
 }
+
+
 
 .change-role .input-grp {
     margin-bottom:8px;
@@ -3154,6 +3165,15 @@ margin:auto !important;
      .edit-profile-page .current-section {
         padding: 40px 36px;
     }
+    
+     .people-page .btn-grp button:nth-child(1) {
+        display:none !important;
+    }
+    
+   .people-page .btn-grp button:nth-child(2) {
+        display:block !important;
+        margin-right:1rem !important;
+    }
 
     
 }
@@ -3295,6 +3315,16 @@ header .btn-grp button i {
     }
     
 }
+
+@media (max-width:430px) {
+
+    .back-button {
+    top:71px !important;
+}
+
+}
+
+
 @media (max-width:420px) {
     .people-page .progress-people-team {
     width: 82%;
@@ -3321,6 +3351,7 @@ header .btn-grp button i {
     width: 144px;
     height: 32px;
     }
+    
 }
 
 @media (max-width:360px) {
